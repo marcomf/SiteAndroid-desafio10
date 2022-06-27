@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Bebas neue';
+    src: url(fontes/BebasNeue-Regular.ttf) format('opentype');
+}
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3AD07D,#1A5C38);
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive; /*fonte*/
+    font-weight: lighter; /*peso da fonte*/
+    text-align: center; /*alinhamento de texto*/
+    padding: 30px 30px 20px 30px; /*acolchoamento*/
+}
+
+p#cabecalho {
+    font-family: Arial, Helvetica, sans-serif; /*fonte*/
+    font-size: 1em; /*tamanho da fonte*/
+    text-align: center; /*alinhamento de texto*/
+    padding-bottom: 30px; /*acolchoamento*/
+    line-height: 1.5em; /*distância entre linhas*/
+    font-weight: lighter; /*peso da fonte*/
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif; /*fonte*/
+    padding: 10px;
+}
+
+span {
+    padding: 12px;
+}
